@@ -8,7 +8,8 @@ assignmentcounts=assignmentcountsinput.split(',')
 
 gradesinput=input('please input grades separated by commas: ')
 grades=gradesinput.split(',')
-
 for i in range(len(names)):
-    print(msg_model % (names[i],assignmentcounts[i],grades[i]))
+    print(msg_model % (names[i],assignmentcounts[i],grades[i],grades[i]))
+
+
 
